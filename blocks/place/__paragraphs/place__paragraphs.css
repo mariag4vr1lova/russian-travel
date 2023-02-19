@@ -1,0 +1,26 @@
+.place__paragraphs{
+    min-width: 456px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    grid-area: paragraphs;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .place__paragraphs{
+      row-gap: 27px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .place__paragraphs{
+        min-width: 352px;
+        row-gap: 25px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .place__paragraphs{
+        min-width: 288px;
+        row-gap: 25px;
+        margin-top: 32px;
+        
+    }
+}
