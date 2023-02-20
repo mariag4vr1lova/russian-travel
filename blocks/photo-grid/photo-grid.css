@@ -1,5 +1,5 @@
 .photo-grid{
-    max-width: calc(100%-96px);
+    max-width: 1184px;
     margin: 92px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -13,14 +13,14 @@
 }
 @media screen and (max-width: 1023px){
     .photo-grid{
-        max-width: calc(100%-48px);
+        max-width: 928px;
         margin-bottom: 88px;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 @media screen and  (max-width: 767px){
     .photo-grid{
-        max-width: calc(100%-32px);
+        max-width: 352px;
         margin-bottom: 64px;
         grid-template-columns: 1fr;
         gap: 12px;
