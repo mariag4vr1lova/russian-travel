@@ -1,11 +1,10 @@
 .header{
-  max-width: 1184px; 
+  max-width: 1184px;
   height: 52px;
   margin: 28px auto 56px;
   display: flex;
   justify-content: space-between;
 }
-
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .header{
         max-width: 928px;
