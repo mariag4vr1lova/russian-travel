@@ -16,7 +16,7 @@
     bottom: 0;
     width: 100%;
     opacity: 0.3;
-    background: #2A2C2F url('https://stampsy.com/na-elektrichkakh-do-baikala');
+    background: #2A2C2F;
 }
 .cover__overlay:hover::before{
     opacity: 0.8;
